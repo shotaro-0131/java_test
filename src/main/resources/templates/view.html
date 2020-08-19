@@ -1,0 +1,16 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8" />
+        <title>自己紹介</title>
+    </head>
+    <body>
+        <div id="profile">
+            <h1 th:text="${name}"></h1>
+            <lu>
+                <li>誕生日 <span th:text="${birthday}"></span></li>
+                <li>趣味 <span th:text="${hobby}"></span></li>
+            <lu>
+        </div>
+    </body>
+</html>
