@@ -5,12 +5,19 @@
         <title>自己紹介</title>
     </head>
     <body>
-        <div id="profile">
+        <div id="profile" style="text-align:center; margin:0 auto;">
             <h1 th:text="${name}"></h1>
             <lu>
+                <li>チーム <span th:text="${team}"></span></li>
                 <li>誕生日 <span th:text="${birthday}"></span></li>
                 <li>趣味 <span th:text="${hobby}"></span></li>
             <lu>
+        </div>
+        <div id="message" style="text-align:center; margin:0 auto;">
+            <p>
+                自分にできることを精一杯頑張ります！</br>
+                よろしくお願いします！</br>
+            </p>
         </div>
     </body>
 </html>

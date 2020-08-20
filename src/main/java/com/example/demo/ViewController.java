@@ -12,6 +12,7 @@ public class ViewController {
     public ModelAndView view() {
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.addObject("name", "村田　翔太朗");
+        modelAndView.addObject("team", "紅のパンダ");
         modelAndView.addObject("birthday", "1月31日");
         modelAndView.addObject("hobby", "麻雀");
         modelAndView.setViewName("view");
